@@ -1,0 +1,64 @@
+{
+  "name": "big-screen-vue-datav",
+  "version": "1.5.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@jiaminghi/data-view": "^2.7.3",
+    "@types/echarts": "^4.4.3",
+    "ant-design-vue": "^1.7.8",
+    "axios": "^0.27.2",
+    "core-js": "^3.6.4",
+    "echarts": "^4.6.0",
+    "echarts-liquidfill": "^2.0.5",
+    "swiper": "^5.3.6",
+    "three": "^0.123.0",
+    "vue": "^2.6.11",
+    "vue-awesome": "^4.5.0",
+    "vue-awesome-swiper": "^4.1.0",
+    "vue-map-3d": "^1.0.4",
+    "vue-router": "^3.1.5",
+    "vue-touch": "^2.0.0-beta.4",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-plugin-eslint": "^4.2.0",
+    "@vue/cli-service": "^4.2.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "sass": "^1.25.0",
+    "sass-loader": "^8.0.2",
+    "vue-count-to": "^1.0.13",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-unused-vars": "off",
+      "vue/no-unused-components": "off",
+      "no-console": "off",
+      "no-debugger": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

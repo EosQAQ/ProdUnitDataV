@@ -1,0 +1,123 @@
+###
+GET http://192.168.13.80:20080/yyjgscreen/#/
+
+### 实时负荷曲线
+
+POST http://10.78.44.80:20080/GFAPI/GFXny/GFPlantDay24YG?plant=GF_YG
+
+
+### 实时负荷数字
+
+POST http://10.78.44.80:20080/GFAPI/GFXny/getPlantRealData?plant=GF_YG
+
+### 风电
+
+POST http://10.78.44.80:20080/GFAPI/GFXny/getPlantRealData?plant=GF_XNY_FD_YG
+
+### 光伏
+
+POST http://10.78.44.80:20080/GFAPI/GFXny/getPlantRealData?plant=GF_XNY_GF_YG
+
+### 火电
+
+POST http://10.78.44.80:20080/GFAPI/GFXny/getPlantRealData?plant=GF_YG
+
+
+###分类电量占比
+
+POST  http://10.78.44.80:20080/GFAPI/GFXny/getMonthDLRpt
+
+
+### 月发电量上网量占比
+POST http://10.78.44.80:20080/GFAPI/GFXny/getMonthDLListRpt
+
+###年发电量上网量
+
+POST http://10.78.44.80:20080/GFAPI/GFXny/getYearMonthDLListRpt
+
+### 三联供总效率
+POST http://10.78.44.80:20080/GFAPI/GFXny/SmarterEnergy?id=QT_StationEff
+
+### 年度总供能
+POST http://10.78.44.80:20080/GFAPI/GFXny/SmarterEnergy?id=QT_APPNDZGN
+
+### 曲线
+POST  http://10.78.44.80:20080/GFAPI/GFXny/SmarterEnergy24?tag=QT_APPGRSSLL
+
+###火电发电量
+POST http://10.78.44.80:20080/GFAPI/Plant/getMonthDLListRpt
+
+### 发电台数
+POST http://10.78.44.80:20080/GFAPI/GFXny/GF_PLANT_UNIT_STATE
+
+### 前滩
+POST http://10.78.44.80:20080/GFAPI/GFXny/SmarterEnergyList
+content-type: application/json
+
+ ["QT_USER12STA032","QT_USER14STA016"]
+
+
+### 风电
+POST http://10.78.44.80:20080/GFAPI/GFXny/XNYFDRealDataList
+content-type: application/json
+
+ ["GF_032"]
+
+### 光伏
+
+POST http://10.78.44.80:20080/GFAPI/GFXny/XNYGFRealDataList
+content-type: application/json
+
+ ["GF_032"]
+
+###
+POST http://10.78.44.80:20080/GFAPI/Plant/getPlantRealDataList
+content-type: application/json
+
+ ["cxrj_01_yg"]
+
+###
+
+ POST http://10.78.44.80:20080/GFAPI/Plant/getGFBaseInfo
+ content-type: application/json
+
+
+###火电厂详情页-发电量上网量同比：
+
+ POST http://10.78.44.80:20080/GFAPI/PlantDetail/sumFDL?plantID=A0106
+
+###
+
+POST http://10.78.44.80:20080/GFAPI/PlantDetail/sumCoal_Gas_DL?plantID=A0106
+
+
+###
+POST http://10.78.44.80:20080/GFAPI/PlantDetail/getPlant24Data?plant=sdcj_01_yg
+
+###
+POST http://10.78.44.80:20080/GFAPI/Base/safeDays
+
+###
+POST http://10.78.44.80:20080/GFAPI/LN/getLNBaseInfo
+
+###
+POST http://10.78.44.80:20080/GFAPI/LN/SmarterEnergyList
+content-type: application/json
+
+ ["QT_USER12STA032"]
+
+
+###
+POST http://10.78.44.80:20080/GFAPI/LN/sum_DL_GLGR?plantID=A0601
+
+###
+POST http://10.78.44.80:20080/GFAPI/XnySubject/getGFBaseInfo
+
+###
+POST http://10.78.44.80:20080/GFAPI/XNYDetail/getGFXnyInfo?xnyID=GF_001
+
+###
+
+POST  http://10.78.44.80:20080/GFAPI/XNYDetail/getFDXnyInfo?xnyID=FD_002
+
+

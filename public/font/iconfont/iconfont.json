@@ -1,0 +1,121 @@
+{
+  "id": "3509959",
+  "name": "项目2",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9923744",
+      "name": "设备数量",
+      "font_class": "shebeishuliang",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "5041653",
+      "name": "可燃气体",
+      "font_class": "jianzhuanquan-",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "11858520",
+      "name": "气体",
+      "font_class": "qiti",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "552743",
+      "name": "发电设备",
+      "font_class": "fadianshebei",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "11372772",
+      "name": "闪电",
+      "font_class": "shandian",
+      "unicode": "e8c5",
+      "unicode_decimal": 59589
+    },
+    {
+      "icon_id": "15243393",
+      "name": "累计发电量",
+      "font_class": "leijifadianliang",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "15243399",
+      "name": "年发电量",
+      "font_class": "nianfadianliang",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "15243402",
+      "name": "月发电量",
+      "font_class": "yuefadianliang",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "15644320",
+      "name": "地球",
+      "font_class": "diqiu",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    },
+    {
+      "icon_id": "18170098",
+      "name": "网络,地球",
+      "font_class": "network",
+      "unicode": "e95f",
+      "unicode_decimal": 59743
+    },
+    {
+      "icon_id": "18412179",
+      "name": "生活源能源消耗30",
+      "font_class": "shenghuoyuannengyuanxiaohao30",
+      "unicode": "e841",
+      "unicode_decimal": 59457
+    },
+    {
+      "icon_id": "19853754",
+      "name": "实时负荷",
+      "font_class": "zuixing-58",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "5027418",
+      "name": "茶山",
+      "font_class": "chashan",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "6943378",
+      "name": "发电量",
+      "font_class": "fadianliang",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "10268989",
+      "name": "负荷",
+      "font_class": "fuhe",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "15243391",
+      "name": "日发电量",
+      "font_class": "rifadianliang",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    }
+  ]
+}
